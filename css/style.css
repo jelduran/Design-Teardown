@@ -6,4 +6,77 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  /*  SELECTORS */
+  
+  html{
+    line-height: 1.15;
+  }
+  
+  body {
+    font-family: 'Lora', serif;
+    font-size: calc(16px + .25vw);
+    font-feature-settings: 'onum' 1;
+    color: #fff;
+  }
+  
+  * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+  }
+  
+  p {
+    color: #555;
+  }
+  
+  
+  /* CLASSES */
+  
+  .grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: white;
+  }
+  
+  .grid-one-col-item{
+    grid-column: auto;
+  }
+  
+  .grid-two-cols-item{
+    grid-column: auto / span 2;
+  }
+  
+  .grid-four-cols-item{
+    grid-column: auto / span 4;
+  }
+  
+  .guideline{
+    border: 1px solid #fee;
+  }
+  
+  .height180{
+    height: 180px;
+  }
+  
+  .height440{
+    height: 440px;
+  }
+  
+  .height1000{
+    height: 1000px;
+  }
+  
+  .padding-add{
+    padding: 25px;
+  }
+  
+  .padding-big-ad{
+    padding: 0 3.4rem 10rem 3.4rem;
+  }
+  
+  .padding-person{
+    padding: 4rem 3rem;
+  }
   
