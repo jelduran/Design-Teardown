@@ -15,15 +15,15 @@ html {
 
 body {
   font-family: 'Lora', serif;
-  font-size: calc(16px + .25vw);
+  font-size: calc(16px + 0.25vw);
   font-feature-settings: 'onum' 1;
   color: #fff;
 }
 
 * {
-  margin: 0px;
-  padding: 0px;
-  border: 0px;
+  margin: 0;
+  padding: 0;
+  border: 0;
   box-sizing: border-box;
 }
 
@@ -91,7 +91,7 @@ div.header-head {
   margin: auto 2.5em;
   font-size: 28px;
   font-weight: 700;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
 }
 
 ul.header-list {
@@ -103,7 +103,7 @@ ul.header-list {
   align-items: center;
   font-size: 32px;
   font-weight: 700;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   list-style: none;
 }
 
@@ -127,18 +127,18 @@ div.header-btn h3 {
   margin-left: 50%;
   margin-top: 50px;
   z-index: 9999;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-weight: 900;
   transform: translateX(-50%);
   text-align: center;
-  font-size: calc(26px + (30 - 26) * (100vw - 350px)/ (1300 - 350));
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
   letter-spacing: -1px;
   color: #fff;
 }
 
 .floating-title-text {
   background-color: #000;
-  padding: .3em .4em;
+  padding: 0.3em 0.4em;
   line-height: 1.5em;
   box-decoration-break: clone;
 }
@@ -149,7 +149,7 @@ article.featured-article {
 }
 
 article.featured-article > h2 {
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-size: 2.5em;
   margin-bottom: 10%;
 }
@@ -164,13 +164,13 @@ h2.article-title {
   font-size: 2.1rem;
   font-weight: 700;
   margin-bottom: 29px;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
 }
 
 div.rounded-ad {
   height: 100%;
   border-radius: 11px;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-size: 3rem;
   font-weight: 900;
   text-align: center;
@@ -189,7 +189,7 @@ div.see-all {
 
 div.big-title {
   height: 100%;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-size: 3.8rem;
   font-weight: 900;
   text-align: center;
@@ -234,14 +234,14 @@ div.article-post {
 
 div.article-post > h4 {
   color: #666;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-weight: 900;
   margin-bottom: 29px;
 }
 
 div.left-title {
   height: 100%;
-  font-family: 'blogger_sansregular';
+  font-family: 'blogger_sansregular', sans-serif;
   font-size: 3.5rem;
   font-weight: 900;
   text-align: left;
@@ -258,7 +258,7 @@ h4.guides {
 ul.guides-list {
   list-style-position: inside;
   line-height: 2;
-  padding-left: 2rem; 
+  padding-left: 2rem;
 }
 
 li.guides-item {
@@ -304,7 +304,7 @@ li.footer-item {
 
 li.footer-item::before {
   content: '•';
-  margin: 0 .25em 0 .25em;
+  margin: 0 0.25em 0 0.25em;
   display: inline-block;
   color: #fff;
   position: relative;
@@ -347,11 +347,11 @@ ul.footer-links a {
 }
 
 ul.footer-links li {
-  margin: .5em 0;
+  margin: 0.5em 0;
   padding: 0;
   display: inline-block;
   margin-right: 1em;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 /* GRAYSCALE */
