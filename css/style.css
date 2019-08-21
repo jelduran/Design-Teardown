@@ -157,6 +157,25 @@ div.rounded-ad{
   padding: 30% 0;
 }
 
+div.see-all{
+  font-size: 1rem;
+  height: 100%;
+  text-align: center;
+  color: #aaa;
+  padding: 3em 0;
+  text-decoration: underline;
+}
+
+div.big-title{
+  height: 100%;
+  font-family: 'blogger_sansregular';
+  font-size: 3.8rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10% 0;
+}
+
 /* GRAYSCALE */
 
 .white{
