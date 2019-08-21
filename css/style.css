@@ -228,6 +228,25 @@ div.left-title{
   padding: 5%;
 }
 
+h4.guides{
+  color: #888;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+ul.guides-list{
+  list-style-position: inside;
+  line-height: 2;
+  padding-left: 2rem; 
+}
+
+li.guides-item{
+  font-size: 1.3rem;
+}
+
+a.guides-link{
+  color: #444;
+}
 
 /* GRAYSCALE */
 
