@@ -133,6 +133,30 @@ article.featured-article > h1{
   margin-bottom: 10%;
 }
 
+div.article {
+  padding: 75px 25px;
+  color: #000;
+}
+
+h2.article-title {
+  color: #000;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 29px;
+  font-family: 'blogger_sansregular';
+}
+
+div.rounded-ad{
+  height: 100%;
+  border-radius: 11px;
+  font-family: 'blogger_sansregular';
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30% 0;
+}
+
 /* GRAYSCALE */
 
 .white{
