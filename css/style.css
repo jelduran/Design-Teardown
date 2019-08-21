@@ -218,6 +218,17 @@ div.article-post > h4{
   margin-bottom: 29px;
 }
 
+div.left-title{
+  height: 100%;
+  font-family: 'blogger_sansregular';
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: left;
+  text-decoration: underline;
+  padding: 5%;
+}
+
+
 /* GRAYSCALE */
 
 .white{
