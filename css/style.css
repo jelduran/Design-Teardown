@@ -148,7 +148,7 @@ article.featured-article {
   padding: 10em 5vw 7em;
 }
 
-article.featured-article > h1 {
+article.featured-article > h2 {
   font-family: 'blogger_sansregular';
   font-size: 2.5em;
   margin-bottom: 10%;
