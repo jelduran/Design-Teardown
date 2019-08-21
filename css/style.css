@@ -176,6 +176,48 @@ div.big-title{
   padding: 10% 0;
 }
 
+div.photoframe{
+  width: 240px;
+  height: 240px;
+  background-color: #111;
+  transform: rotate(-11deg);
+  border-radius: 22px;
+  float: left;
+}
+
+div.text-photo{
+  width: 75%;
+  float: left;
+  margin-right: auto;
+  margin-left: 4rem;
+  line-height: 1.5;
+}
+
+div.text-photo > h4{
+  color: #888;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+div.small-photoframe{
+  width: 78px;
+  height: 78px;
+  border-radius: 6px;
+}
+
+div.article-post{
+  width: 75%;
+  float: left;
+  margin-left: 2.5rem;
+}
+
+div.article-post > h4{
+  color: #666;
+  font-family: 'blogger_sansregular';
+  font-weight: 900;
+  margin-bottom: 29px;
+}
+
 /* GRAYSCALE */
 
 .white{
