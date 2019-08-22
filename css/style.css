@@ -1,0 +1,421 @@
+/* FONTS */
+
+@font-face {
+  font-family: 'blogger_sansregular';
+  src: url('fonts/Blogger_Sans-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*  SELECTORS */
+
+html {
+  line-height: 1.15;
+}
+
+body {
+  font-family: 'Lora', serif;
+  font-size: calc(16px + 0.25vw);
+  font-feature-settings: 'onum' 1;
+  color: #fff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #555;
+}
+
+/* CLASSES */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  background-color: white;
+}
+
+.grid-one-col-item {
+  grid-column: auto;
+}
+
+.grid-two-cols-item {
+  grid-column: auto / span 2;
+}
+
+.grid-four-cols-item {
+  grid-column: auto / span 4;
+}
+
+.guideline {
+  border: 1px solid #fee;
+}
+
+.height180 {
+  height: 180px;
+}
+
+.height440 {
+  height: 440px;
+}
+
+.height1000 {
+  height: 1000px;
+}
+
+.padding-add {
+  padding: 25px;
+}
+
+.padding-big-ad {
+  padding: 0 3.4rem 10rem 3.4rem;
+}
+
+.padding-person {
+  padding: 4rem 3rem;
+}
+
+div.container-header {
+  display: grid;
+  grid-template-columns: 225px auto 200px;
+  height: 150px;
+  color: white;
+}
+
+div.header-head {
+  text-align: center;
+  margin: auto 2.5em;
+  font-size: 28px;
+  font-weight: 700;
+  font-family: 'blogger_sansregular', sans-serif;
+}
+
+ul.header-list {
+  width: 1093px;
+  height: 150px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 32px;
+  font-weight: 700;
+  font-family: 'blogger_sansregular', sans-serif;
+  list-style: none;
+}
+
+div.header-btn {
+  width: 80px;
+  height: 45px;
+  text-align: center;
+  margin: auto;
+}
+
+div.header-btn h3 {
+  border: 1px solid #fff;
+  padding: 10px;
+  font-family: 'Lora', serif;
+  font-size: 18px;
+}
+
+.floating-title {
+  position: absolute;
+  left: 0;
+  margin-left: 50%;
+  margin-top: 50px;
+  z-index: 9999;
+  font-family: 'blogger_sansregular', sans-serif;
+  font-weight: 900;
+  transform: translateX(-50%);
+  text-align: center;
+  font-size: calc(26px + (30 - 26) * (100vw - 350px) / (1300 - 350));
+  letter-spacing: -1px;
+  color: #fff;
+}
+
+.floating-title-text {
+  background-color: #000;
+  padding: 0.3em 0.4em;
+  line-height: 1.5em;
+  box-decoration-break: clone;
+}
+
+article.featured-article {
+  color: #fff;
+  padding: 10em 5vw 7em;
+}
+
+article.featured-article > h2 {
+  font-family: 'blogger_sansregular', sans-serif;
+  font-size: 2.5em;
+  margin-bottom: 10%;
+}
+
+div.article {
+  padding: 75px 25px;
+  color: #000;
+}
+
+h2.article-title {
+  color: #000;
+  font-size: 2.1rem;
+  font-weight: 700;
+  margin-bottom: 29px;
+  font-family: 'blogger_sansregular', sans-serif;
+}
+
+div.rounded-ad {
+  height: 100%;
+  border-radius: 11px;
+  font-family: 'blogger_sansregular', sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  padding: 30% 0;
+}
+
+div.see-all {
+  font-size: 1rem;
+  height: 100%;
+  text-align: center;
+  color: #aaa;
+  padding: 3em 0;
+  text-decoration: underline;
+}
+
+div.big-title {
+  height: 100%;
+  font-family: 'blogger_sansregular', sans-serif;
+  font-size: 3.8rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: underline;
+  padding: 10% 0;
+}
+
+div.photoframe {
+  width: 240px;
+  height: 240px;
+  background-color: #111;
+  transform: rotate(-11deg);
+  border-radius: 22px;
+  float: left;
+}
+
+div.text-photo {
+  width: 75%;
+  float: left;
+  margin-right: auto;
+  margin-left: 4rem;
+  line-height: 1.5;
+}
+
+div.text-photo > h4 {
+  color: #888;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+div.small-photoframe {
+  width: 78px;
+  height: 78px;
+  border-radius: 6px;
+}
+
+div.article-post {
+  width: 75%;
+  float: left;
+  margin-left: 2.5rem;
+}
+
+div.article-post > h4 {
+  color: #666;
+  font-family: 'blogger_sansregular', sans-serif;
+  font-weight: 900;
+  margin-bottom: 29px;
+}
+
+div.left-title {
+  height: 100%;
+  font-family: 'blogger_sansregular', sans-serif;
+  font-size: 3.5rem;
+  font-weight: 900;
+  text-align: left;
+  text-decoration: underline;
+  padding: 5%;
+}
+
+h4.guides {
+  color: #888;
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+ul.guides-list {
+  list-style-position: inside;
+  line-height: 2;
+  padding-left: 2rem;
+}
+
+li.guides-item {
+  font-size: 1.3rem;
+}
+
+a.guides-link {
+  color: #444;
+}
+
+div.footer-container {
+  width: 1254px;
+  height: 335px;
+  color: #fff;
+  padding: 0 1em;
+  margin: 0 auto;
+  margin-top: 90px;
+}
+
+h4.footer-h4 {
+  width: 1221px;
+  height: 34px;
+  margin: 31px 0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+
+ul.footer-list {
+  width: 1221px;
+  height: 270px;
+  text-align: center;
+}
+
+li.footer-item {
+  margin: 7px 0;
+  display: inline-block;
+  width: auto;
+}
+
+li.footer-item::before {
+  content: '•';
+  margin: 0 0.25em 0 0.25em;
+  display: inline-block;
+  color: #fff;
+  position: relative;
+  top: 2px;
+}
+
+li.footer-item a {
+  font-size: 25px;
+  line-height: 40px;
+  padding: 10px 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+div.footer-notes {
+  width: 1254px;
+  height: 116px;
+  text-align: center;
+  color: #fff;
+  font-style: italic;
+  font-size: 1rem;
+  margin: 4rem auto 0;
+}
+
+div.footer-notes a {
+  color: #fff;
+}
+
+ul.footer-links {
+  width: 523px;
+  height: 127px;
+  margin: 0 auto;
+  padding: 1em 0;
+  text-align: center;
+  max-width: 30em;
+}
+
+ul.footer-links a {
+  color: #666;
+}
+
+ul.footer-links li {
+  margin: 0.5em 0;
+  padding: 0;
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 0.9rem;
+}
+
+/* GRAYSCALE */
+
+.white {
+  background-color: #fff;
+}
+
+.black14 {
+  background-color: #eee;
+}
+
+.black13 {
+  background-color: #ddd;
+}
+
+.black12 {
+  background-color: #ccc;
+}
+
+.black11 {
+  background-color: #bbb;
+}
+
+.black10 {
+  background-color: #aaa;
+}
+
+.black9 {
+  background-color: #999;
+}
+
+.black8 {
+  background-color: #888;
+}
+
+.black7 {
+  background-color: #777;
+}
+
+.black6 {
+  background-color: #666;
+}
+
+.black5 {
+  background-color: #555;
+}
+
+.black4 {
+  background-color: #444;
+}
+
+.black3 {
+  background-color: #333;
+}
+
+.black2 {
+  background-color: #222;
+}
+
+.black1 {
+  background-color: #111;
+}
+
+.black {
+  background-color: #000;
+}
